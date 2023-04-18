@@ -1,5 +1,7 @@
 package main.java.string;
 
+import static main.java.string.Anagramm.anagrama;
+import static main.java.string.Fibonachi.enter;
 import static main.java.string.StringPage.factorial;
 
 public class Task {
@@ -32,10 +34,10 @@ public class Task {
         page.palindrom();
 
         System.out.println("\nНаписать метод который определяет является ли слово анаграммой (обезьянство, место, мечеть)");
-        new Anagramm().anagrama();
+       anagrama();
 
         System.out.println("\nВычислить число Фибоначчи");
-        new Fibonachi().enter();
+        enter();
 
         System.out.println("Вычислить факториал");
         factorial();

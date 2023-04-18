@@ -10,7 +10,7 @@ public class Anagramm {
     static String string2 = "место";
     static String string3 = "мечеть";
 
-    public void anagrama() {
+    public static void anagrama() {
         char[] chs1 = string1.toCharArray();
         char[] chs2 = string2.toCharArray();
         char[] chs3 = string3.toCharArray();
